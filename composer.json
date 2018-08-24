@@ -1,0 +1,51 @@
+{
+    "name": "workingconcept/range-slider",
+    "description": "Field for defining ranges with a nice UI.",
+    "type": "craft-plugin",
+    "version": "0.9.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft-field"
+    ],
+    "support": {
+        "docs": "https://github.com/workingconcept/range-slider-craft-plugin/blob/master/README.md",
+        "issues": "https://github.com/workingconcept/range-slider-craft-plugin/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Working Concept",
+            "homepage": "https://workingconcept.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "workingconcept\\rangeslider\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Range Slider",
+        "handle": "range-slider",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://github.com/workingconcept/range-slider-craft-plugin/raw/master/changelog.md",
+        "components": {},
+        "class": "workingconcept\\rangeslider\\RangeSlider",
+        "downloadUrl": "https://github.com/workingconcept/range-slider-craft-plugin/repository/master/archive.zip",
+        "developer": "Working Concept",
+        "developerUrl": "https://workingconcept.com"
+    }
+}
