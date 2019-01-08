@@ -3,6 +3,9 @@
         init: function($el) {
             var t = this;
             this.$el = $($el);
+            if ($($el).val()) {
+                $($el).attr({'data-from':'', 'data-to':''});
+            }
             t.addListener(window, 'resize', function(ev) {
                 setTimeout(function() {
                     $($el).ionRangeSlider('update');
